@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'information.dart';
 
-const List<String> list = <String>['D', 'E', 'F', 'G', 'H'];
+const List<String> list = <String>['All','D', 'E', 'F', 'G', 'H'];
 
 class SelectBlock extends StatelessWidget {
   @override
