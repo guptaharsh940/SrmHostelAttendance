@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_page/splashscreen.dart';
 import 'information.dart';
 
 const List<String> list = <String>['All','D', 'E', 'F', 'G', 'H'];
@@ -34,7 +35,7 @@ class SelectBlock extends StatelessWidget {
                 Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => InfoPage()));})
+                  builder: (context) => SplashScreen()));})
             ],
           ),
         ),

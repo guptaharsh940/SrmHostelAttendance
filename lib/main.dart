@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:login_page/information.dart';
 import 'package:login_page/select.dart';
+import 'package:login_page/splashscreen.dart';
 
 void main() {
   runApp(MaterialApp(
     theme: ThemeData(primaryColor: Colors.purple),
     debugShowCheckedModeBanner: false,
     home: LoginPage(),
-    routes: {'InfoPage': (context) => InfoPage(), 'SelectBlock':(context) => SelectBlock()},
+    routes: {'SplashScreen': (context) => SplashScreen(),'InfoPage': (context) => InfoPage(rooms2: const [], summary2: const []), 'SelectBlock':(context) => SelectBlock()},
   ));
 }
 
